@@ -20,8 +20,7 @@
     <docsUrl>https://docs.pdfforge.org/</docsUrl>
     <tags>pdfcreator-professional pdfcreator-business pdfcreator pdf editor printer</tags>
     <summary>PDFCreator is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently.</summary>
-    <description>
-# PDFCreator Professional 
+    <description># PDFCreator Professional 
 
 ## Features
 - **PDFCreator Professional** is ad-free and includes priority support by e-mail.
@@ -34,12 +33,12 @@ To add command line parameters to the installer, please use:
 `--installer-arguments="[parameters]"`
 
 The list of possible `parameters` can be found below:
-- **/LicenseKey=\<LicenseKey>**
-- **/ProxyUsername=\<ProxyUsername>**
-- **/ProxyPassword=\<ProxyPassword>**
-- **/ProxyName=\<ProxyName:Port>**
-- **/Lang=\<LanguageCodes>** - List of two letter language codes
-- **/Dir=\<AbsolutePath>** - Path to desired installation directory
+- **/LicenseKey=`LicenseKey`**
+- **/ProxyUsername=`ProxyUsername`**
+- **/ProxyPassword=`ProxyPassword`**
+- **/ProxyName=`ProxyName`** - `ProxyName:Port`
+- **/Lang="en"** - List of two letter language codes
+- **/Dir="X:\DIR\PDFCreator"** - Absolute path to desired installation directory
 - **/NoIcons** - No icons created on the Desktop
 - **/DisableContextMenu** - No entries in the context menu
 - **/DisableStartMenu** - No entries in the start menu
@@ -47,7 +46,7 @@ The list of possible `parameters` can be found below:
 PDFCreator is a very lightweight application. If your machine is able to run a modern Windows OS without troubles, it should be able to run PDFCreator. For more detailed instructions please see the [user guide](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/installing-pdfcreator/setup-command-line-parameters/) 
 
 2024, Avanquest pdfforge GmbH
-</description>
+    </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
