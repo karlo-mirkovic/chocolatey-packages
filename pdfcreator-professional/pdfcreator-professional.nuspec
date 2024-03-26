@@ -37,7 +37,7 @@ The list of possible `parameters` can be found below:
 - **/ProxyUsername=`ProxyUsername`**
 - **/ProxyPassword=`ProxyPassword`**
 - **/ProxyName=`ProxyName`** - A port can also be specified with `ProxyName:Port`
-- **/Lang="en"** - List of two letter language codes
+- **/Lang="en"** - Two letter language code
 - **/Dir="X:\DIR\PDFCreator"** - Absolute path to desired installation directory
 - **/NoIcons** - No icons created on the Desktop
 - **/DisableContextMenu** - No entries in the context menu
