@@ -18,9 +18,10 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/pdfforge/PDFCreator</projectSourceUrl>
     <docsUrl>https://docs.pdfforge.org/</docsUrl>
-    <tags>pdfcreator-professional pdfcreator-business pdfcreator pdf editor printer</tags>
+    <tags>pdfcreator-professional pdfcreator-business pdfcreator pdf editor printer #license</tags>
     <summary>PDFCreator is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently.</summary>
     <description># PDFCreator Professional 
+Attention! This package installs software that requires a license.
 
 ## Features
 - **PDFCreator Professional** is ad-free and includes priority support by e-mail.

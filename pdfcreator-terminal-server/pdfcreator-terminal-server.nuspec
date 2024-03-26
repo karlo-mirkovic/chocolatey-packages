@@ -18,9 +18,10 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/pdfforge/PDFCreator</projectSourceUrl>
     <docsUrl>https://docs.pdfforge.org/</docsUrl>
-    <tags>pdfcreator-terminal-server pdfcreator-business pdfcreator printer terminal-server</tags>
+    <tags>pdfcreator-terminal-server pdfcreator-business pdfcreator printer terminal-server #license</tags>
     <summary>PDFCreator is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently.</summary>
     <description> # PDFCreator Terminal Server
+Attention! This package installs software that requires a license.
 
 ## Features
 - With **PDFCreator Terminal Server** you get all the features that are included in PDFCreator Professional.

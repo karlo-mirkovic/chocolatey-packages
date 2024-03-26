@@ -18,9 +18,10 @@
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/pdfforge/PDFCreator</projectSourceUrl>
     <docsUrl>https://docs.pdfforge.org/</docsUrl>
-    <tags>pdfcreator-server pdfcreator-business pdfcreator printer server</tags>
+    <tags>pdfcreator-server pdfcreator-business pdfcreator printer server #license</tags>
     <summary>PDFCreator is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently.</summary>
     <description> # PDFCreator Server
+Attention! This package installs software that requires a license.
 
 ## Features
 - **PDFCreator Server** works as service and allows central management of settings and users.
