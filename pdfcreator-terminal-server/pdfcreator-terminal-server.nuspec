@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>pdfcreator-terminal-server</id>
+    <version>5.2.1</version>
+    <packageSourceUrl>https://github.com/karlo-mirkovic/chocolatey-packages/tree/main/pdfcreator-terminal-server</packageSourceUrl>
+    <owners>Avanquest pdfforge</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>PDFCreator Terminal Server</title>
+    <authors>Avanquest pdfforge</authors>
+    <projectUrl>https://www.pdfforge.org/pdfcreator/editions/pdfcreator-terminal-server</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/karlo-mirkovic/chocolatey-packages@main/icons/pdfcreator.png</iconUrl>
+    <copyright>2024 Avanquest pdfforge GmbH</copyright>
+    <licenseUrl>https://docs.pdfforge.org/pdfcreator/en/pdfcreator/license/pdfcreator-eula/</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/pdfforge/PDFCreator</projectSourceUrl>
+    <docsUrl>https://docs.pdfforge.org/</docsUrl>
+    <tags>pdfcreator-terminal-server pdfcreator-business pdfcreator printer terminal-server</tags>
+    <summary>PDFCreator is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently.</summary>
+    <description> # PDFCreator Terminal Server
+
+## Features
+- With **PDFCreator Terminal Server** you get all the features that are included in PDFCreator Professional.
+- You have the freedom to use this solution for an unlimited number of users. The license fee is paid per server, not per user
+- Load balancing will not cause any issues for the license as it is deployed to the machine. Hence users can float between servers without problems
+- A big strength of PDFCreator Terminal Server is the user session isolation. Print data will not move from one session to another, even if the same user is logged in multiple times.
+- Allows the central management of settings via group policies. The deployment can be done with our regular installer or by deploying the MSI through group policies.
+- Like all PDFCreator Business solutions, this edition includes priority support by e-mail.
+
+## Setup Command Line Parameters
+To add command line parameters to the installer, please use:
+`--installer-arguments="[parameters]"`
+
+The list of possible `parameters` can be found below:
+- **/LicenseKey=`LicenseKey`**
+- **/ProxyUsername=`ProxyUsername`**
+- **/ProxyPassword=`ProxyPassword`**
+- **/ProxyName=`ProxyName`** - A port can also be specified with `ProxyName:Port`
+- **/Lang="en"** - Two letter language code
+- **/Dir="X:\DIR\PDFCreator"** - Absolute path to desired installation directory
+- **/NoIcons** - No icons created on the Desktop
+- **/DisableContextMenu** - No entries in the context menu
+- **/DisableStartMenu** - No entries in the start menu
+- **/DeferLicensingServiceStart** - Used to prevent the PDFCreator Licensing Service from activating the license automatically after the setup.
+- **/ServiceUsername="User.Name"** - You can run the service as local system or use this to select a user
+- **/ServicePassword="ABC1234!"** - Set the password that matches the username for the service
+
+PDFCreator is a very lightweight application. If your machine is able to run a modern Windows OS without troubles, it should be able to run PDFCreator. For more detailed instructions please see the [user guide](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/installing-pdfcreator/setup-command-line-parameters/)
+
+2024, Avanquest pdfforge GmbH
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
