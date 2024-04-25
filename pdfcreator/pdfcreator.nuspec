@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>PDFCreator</id>
+    <version>5.2.1</version>
+    <packageSourceUrl>https://github.com/karlo-mirkovic/chocolatey-packages/tree/main/pdfcreator</packageSourceUrl>
+    <owners>Avanquest pdfforge</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>PDFCreator</title>
+    <authors>Avanquest pdfforge</authors>
+    <projectUrl>https://www.pdfforge.org/pdfcreator</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/karlo-mirkovic/chocolatey-packages@main/icons/pdfcreator.png</iconUrl>
+    <copyright>2024 Avanquest pdfforge GmbH</copyright>
+    <licenseUrl>https://docs.pdfforge.org/pdfcreator/en/pdfcreator/license/pdfcreator-freeware-license/</licenseUrl>
+    <projectSourceUrl>https://github.com/pdfforge/PDFCreator</projectSourceUrl>
+    <docsUrl>https://docs.pdfforge.org/</docsUrl>
+    <tags>pdfcreator pdfcreator pdf editor printer</tags>
+    <summary>PDFCreator is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently.</summary>
+    <description># PDFCreator 
+
+## Features
+- **PDFCreator** is the popular PDF converter that offers all the features that you need to get your work done quickly and efficiently. Its automated features help to optimize your individual workflow. Available for every IT infrastructure.
+
+## Setup Command Line Parameters
+To add command line parameters to the installer, please use:
+`--installer-arguments="[parameters]"`
+
+The list of possible `parameters` can be found below:
+- **/Lang="en"** - Two letter language code
+- **/Dir="X:\DIR\PDFCreator"** - Absolute path to desired installation directory
+- **/NoIcons** - No icons created on the Desktop
+- **/DisableContextMenu** - No entries in the context menu
+- **/DisableStartMenu** - No entries in the start menu
+
+PDFCreator is a very lightweight application. If your machine is able to run a modern Windows OS without troubles, it should be able to run PDFCreator. For more detailed instructions please see the [user guide](https://docs.pdfforge.org/pdfcreator/en/pdfcreator/installing-pdfcreator/setup-command-line-parameters/) 
+
+2024, Avanquest pdfforge GmbH
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
