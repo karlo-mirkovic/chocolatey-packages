@@ -1,14 +1,15 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $checksumType  = 'sha256'
-$checksum      = '9C68A989F89C233BB4E191E4A8C2F6AEF79D4B272A00B82A736E2368E0936F4D'
+$checksum      = '9c68a989f89c233bb4e191e4a8c2f6aef79d4b272a00b82a736e2368e0936f4d'
 $url           = 'https://download.pdfforge.org/download/pdfcreator/5.2.1/PDFCreator-5_2_1-Setup.exe?file=PDFCreator-5_2_1-Setup.exe&download'
+$url32         = 'https://download.pdfforge.org/download/pdfcreator/5.2.1/PDFCreator-5_2_1-Setup.exe?file=PDFCreator-5_2_1-Setup.exe&download'
 
 $packageArgs = @{
   packageName   = 'pdfcreator'
   unzipLocation = $toolsDir
   fileType      = 'exe'
-  url           = $url
+  url           = $url32
   url64bit      = $url
   softwareName  = 'PDFCreator'
   checksumType  = $checksumType
