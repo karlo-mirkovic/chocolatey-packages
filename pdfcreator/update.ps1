@@ -15,7 +15,6 @@ function global:au_GetLatest {
   $setupFileName = $softwareNameWithDashes + '-' + $versionWithUnderscore + '-' + 'Setup.exe'
   $latestUrl = $domain + '/download/' + $softwareNameWithDashes.ToLowerInvariant() + '/' + $version + '/' + $setupFileName + '?' + 'file=' + $setupFileName + '&download'
   @{
-      URL32       = $latestUrl
       URL         = $latestUrl
       Version     = $version
       PackageName = $softwareName
@@ -29,7 +28,6 @@ function global:au_SearchReplace {
     ".\tools\chocolateyInstall.ps1"   = @{
         "(?i)(^[$]checksum\s*=\s*)'.*'"           = "`${1}`'$($Latest.Checksum32)`'"
         "(?i)(^[$]url\s*=\s*)'.*'"                = "`${1}`'$($Latest.URL)`'"
-        "(?i)(^[$]url32\s*=\s*)'.*'"              = "`${1}`'$($Latest.URL32)`'"
     }
   }
 }
